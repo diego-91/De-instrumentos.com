@@ -1,0 +1,186 @@
+body{
+	margin:0;
+	background:url(../Imagenes/dust_scratches.png);
+}
+main{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+}
+header{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	height:100px;
+	padding-top:6px;
+	position:fixed;
+	text-align:center;
+	top:0;
+	width:960px;
+}
+	.logo{
+		background:url("../Imagenes/Logo.png");
+		background-repeat:no-repeat;
+		display:inline-block;	
+		height:47px;
+		text-indent:-3000px;
+		width:438px;
+	}
+	header .socmed{
+		color:rgb(226,226,226);
+		float:right;
+		font-size:25px;
+		margin-right:10px;
+		margin-top:7px;
+		transition:0.4s;
+	}
+	.socmed:hover{
+		color:rgba(232, 105, 0, 0.99);
+	}
+nav{
+	margin-top:88px;
+	text-align:center;
+}
+	#menuprincipal{
+		list-style-type:none;
+		margin-left:-50px;
+		position:fixed;
+	}
+		#menuprincipal li{
+			background:rgb(68,68,68);
+			box-sizing:border-box;
+			float:left;
+			height:33px;
+			margin-left:10.3px;
+			position:relative;
+			width:151.50px;
+		}
+		#menuprincipal li a{
+			color:rgb(226,226,226);
+			display:block;
+			font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+			height:28px;
+			text-decoration:none;
+			padding-top:5px;
+			transition:0.3s;
+		}
+		#menuprincipal li a:hover{
+			background:rgb(62,62,62);
+			color:rgba(226,226,226);
+		}
+		#menuprincipal li ul{
+			display:none;
+			list-style-type:none;
+			margin-left:-50.3px;
+			position:absolute;
+		}
+		#menuprincipal li:hover>ul{
+			display:block;
+		}
+		#menuprincipal li ul li{
+			width:178px;
+		}
+		#menuprincipal li ul li ul{
+			left:100%;
+			top:0px;
+		}
+#wrapper{
+	 background:rgb(68,68,68);
+	 box-sizing: border-box;
+	 float:left;
+	 margin-bottom:8px;
+	 margin-top:53px;
+	 padding-left:29px;
+	 padding-right:29px;
+	 width:79%;
+}
+	#wrapper article h2{
+		color:rgba(232, 105, 0, 0.99);
+		font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+		font-weight:200;
+		letter-spacing:0.1px;
+		margin-bottom:-11px;
+		margin-top:12px;
+	}
+	#wrapper article #hr{
+		margin-left:-29px;
+		margin-bottom:-7px;
+	}
+	#wrapper article h3{
+		color:rgb(226,226,226);
+		font-family:"Homizio Nova Light", "Novizio Nova";
+		font-size:22px;
+		letter-spacing:1.5px;
+		margin-bottom:-14px;
+	}
+	#wrapper article p{
+		color:rgb(226,226,226);
+		font-family:"Homizio Nova", "Homizio Nova Light";
+		letter-spacing:0.4px;
+	} 
+	#wrapper article .guion{
+		color:rgb(232, 105, 0, 0.99);
+		font-size:19px;
+		font-weight:900;
+	}
+	#wrapper article #wrapperbajo{
+		border:solid 0.9px;
+		color:rgb(226,226,226);
+		margin:auto;
+		padding-bottom:2px;
+		padding-top:6px;		
+		text-align: center;
+		width:575px;
+	}
+	#wrapper article #wrapperpaul{
+		border:solid 0.9px;
+		color:rgb(226,226,226);
+		margin:auto;
+		padding-bottom:2px;
+		padding-top:6px;
+		text-align:center;	
+		width:300px;
+	}
+	#wrapper article #multimedia{
+		margin-bottom:45px;
+		text-align:center;
+	}
+aside{
+	float:right;
+	padding-right:3px;
+	padding-top:53px;
+	width:20%;
+}
+footer{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	clear:both;
+	color:rgb(226,226,226);
+	font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+	font-size:17px;
+	height:70px;
+}
+	footer #wrapper_redsoc{
+			float:left;
+			padding-top:25px;
+			margin-left:5px;
+		}		
+	footer .redsoc{ 
+			color:rgb(226,226,226);
+			font-size:25px;
+			margin-top:-2px;
+			padding-left:5px;
+			transition:0.4s;
+		}
+		.redsoc:hover{
+			color:rgba(232, 105, 0, 0.99);
+		}
+	footer span{
+   		display:inline-block;
+		margin-left:132px;
+		margin-top:25px;
+	}
+
+
+
+
+	

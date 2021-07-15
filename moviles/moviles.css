@@ -1,0 +1,150 @@
+#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	padding-top:0px;
+	width:100%;	
+	/*;/*centra la caja que contiene al logo, no al logo*/
+}
+header .logo{
+	background:url("../Imagenes/logo_responsive.png");
+	background-repeat:no-repeat;
+	margin-right:10%;
+	margin-top:16px;
+	height:20px;
+	width:205px;
+}
+header .socmed{
+	display:none;
+}
+header #btn-menu{
+	display:none;
+}
+header label{
+	border:solid 1px rgb(226,226,226);
+	display:block;
+	float:left;
+	height:17px;
+	margin-left:15px;
+	margin-top:15px;
+	padding-left:6px;
+	padding-top:3px;
+	width:18px;
+}
+header .menu{
+	color:rgb(226,226,226);
+	display:block;
+	font-size:14px;
+}
+#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%);
+}	
+nav{
+	text-align:left;
+		
+}
+nav #menuprincipal{
+	top:52px;
+	margin:0;
+	padding-left:0%;
+	transform:translateX(-110%);
+	transition:all 0.1s;
+}
+nav #menuprincipal .li{
+	background:rgba(62,62,62);
+	box-sizing:border-box;
+	float:none;
+	padding-left:0px;
+	width:100%;
+}
+nav #menuprincipal .li .arrow{
+	display:block;
+	float:right;
+	margin-right:16px;
+	margin-top:4px;
+}
+nav #menuprincipal .li a{
+	padding-left:17px;
+}
+nav #menuprincipal .li a:hover{
+	background:rgb(62,62,62);
+	color:rgb(226,226,226);
+}
+nav #menuprincipal .li ul{
+	margin-left:15%;
+	position: static;
+	width: auto;
+}
+nav #menuprincipal .li:hover ul{
+ 	display:none;
+}
+nav #menuprincipal .li ul li a{
+	font-weight:normal;
+}
+nav #menuprincipal .li ul li a:hover{
+	background:rgb(68,68,68);
+}
+.wrapper{
+	float:none;
+	margin-top:52px;
+	padding-bottom:12px;
+	padding-left:29px;
+	padding-right:29px;
+	padding-top:1px;
+	width:100%;
+}
+.wrapper #bienvenida{
+	margin-top:69px;
+}
+.contenido{
+	height:auto;
+	padding-right:19px;
+}
+.contenido img{
+	float:none;
+	display:block;
+	width:90%;
+    margin:auto;
+
+}
+.contenido h4{
+	margin-left:4%;
+	margin-top:2px;
+	margin-bottom:-13px;
+}
+.contenido  p{
+	box-sizing:border-box;
+	margin-left:4%;
+	padding-right:12px;
+	width:100%;
+	}
+aside{
+	float:none;
+	width:100%;
+}
+footer{
+	height:auto;
+	padding-left:0;
+	padding-top: 9px;
+	text-align:center;	
+}
+.redsoc{
+	color: rgb(226,226,226);
+	font-size:25px;
+	margin-bottom: 30px;	
+    }
+    .redsoc:hover{
+    	color:rgb(226,226,226);
+    }
+span{	
+	box-sizing:border-box;
+	height: auto;
+	padding-bottom: 2%;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: auto;
+}
+
+
+ 
