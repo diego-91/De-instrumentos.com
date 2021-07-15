@@ -1,0 +1,115 @@
+#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	padding-top:0px;
+	width:100%;
+}
+header .logo{
+	background:url("../Imagenes/logo_responsive.png");
+	background-repeat:no-repeat;
+	margin-right:10%;
+	margin-top:15px;
+	height:20px;
+	width:205px;
+}
+header .socmed{
+	display:none;
+}
+
+header label{
+	border:solid 1px rgb(226,226,226);
+	display:block;
+	float:left;
+	height:17px;
+	margin-left:15px;
+	margin-top:14.4px;
+	padding-left:6px;
+	padding-top:3px;
+	width:18px;	
+}
+header .menu{
+	color:rgb(226,226,226);
+	font-size:14px;
+	display:block;
+}
+#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%);
+}
+nav{
+	text-align:left;
+}
+nav #menuprincipal{
+	top:33px;
+	transform:translateX(-110%);
+	transition:all 0.1s;
+}
+nav #menuprincipal .li{
+	background:rgba(62,62,62);
+	width:100%;	
+	/*en nav #menuprincipal (estilos.css) el width esta en 71.2%, si coloco en li de tablets (por ejemplo) width:100% ese ancho abarcara todo el ancho de su padre nav#menuprincipal, si coloco 50%, abarcara la mitad de su padre*/;
+}
+nav #menuprincipal .li .arrow{
+	display:block;
+	float:right; 
+	margin-right:16px;
+	margin-top:4px;
+}
+nav #menuprincipal .li a{
+	padding-left:17px;
+}
+nav #menuprincipal .li ul{
+	margin-left:15%;
+	position:static;
+	width:auto;
+}
+nav #menuprincipal .li a:hover{
+ 	background:rgb(62,62,62);
+ 	color:rgb(226,226,226);
+}
+nav #menuprincipal .li:hover ul{
+	display:none;
+}
+nav #menuprincipal .li ul li a:hover{
+	background:rgb(68,68,68);
+}
+.wrapper{
+	margin-top:52px;
+	padding-top:1px;
+	width:100%;
+	padding-bottom:12px;
+}
+.contenido{
+	box-sizing:border-box;
+	padding-left:65px;
+	padding-right:25px;
+}
+
+.contenido p{
+	float:none;
+}
+.contenido img{
+	margin-left:0%;
+	margin-top:17px;
+}
+.contenido h4{
+	font-size:23px;
+}
+aside{
+	width:100%;
+}
+.redsoc:hover{
+	color:rgb(226,226,226);
+}
+footer{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:8px;
+	padding-top:11px;
+	text-align: center;
+}
+footer .redsoc{
+	margin-bottom: 23px;
+}
+

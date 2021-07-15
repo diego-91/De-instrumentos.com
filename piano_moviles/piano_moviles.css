@@ -1,0 +1,117 @@
+#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	width:100%;
+}
+header label{
+	border:solid 1px rgb(226,226,226);
+	display:block;
+	margin-left:14px;
+	margin-top:14px;
+	padding-bottom:1px;
+	padding-left:5px;
+	padding-right:7px;
+	padding-top:1px;
+	width:12px;
+}
+#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%);
+}
+header #marca{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-43px;
+	width:210px;
+}
+header .logo{
+	background:url("../Imagenes/logo_responsive.png");
+	background-repeat:no-repeat;
+}
+header #redes{
+	display:none;
+}
+nav{
+	text-align: left;
+}
+nav #menuprincipal{
+	margin-top:-22px;
+	transform:translateX(-100%);
+	transition:0.1s;
+}
+nav #menuprincipal .li{
+	background:rgba(62,62,62);
+	float:none;
+	width:100%; /*el li va a abarcar todo el ancho de su padre*/
+}
+nav #menuprincipal .li a{
+	padding-left:17px;
+}
+nav #menuprincipal .li a:hover{
+	background: rgb(62,62,62);
+	color:rgb(226,226,226);	
+}
+nav #menuprincipal .li .arrow{
+	display:block;
+	float:right;
+	margin-right:16px;
+	margin-top:5px;	
+}
+nav #menuprincipal .li ul{
+	margin-left:15%;
+	position:static;
+	width:auto;
+	}
+nav #menuprincipal .li:hover ul{
+	display: none;
+}
+nav #menuprincipal .li ul li a:hover{
+	background: rgb(62,62,62);
+}
+#wrapper{
+	margin-top: 52px;
+}
+#imagenprincipal{
+	box-sizing:border-box;
+	padding:5px;
+}
+#imagenprincipal #img{
+	margin-bottom:2px;
+	width:100%;
+}
+#imagenprincipal #img2{
+	width:100%;
+}
+#wrapper{
+	width:100%;
+}
+aside{
+	float:none;
+	width:100%;
+}
+footer{
+	height: auto;
+}
+footer #box {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	padding-left:6px;
+	width:99.1px;
+	margin-bottom:25px;
+}
+footer .redsoc:hover{
+	color: rgb(226,226,226);
+}
+footer #copyright{
+	box-sizing:border-box;
+	margin-left:auto;
+	padding-bottom:7px;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+	width:100%;
+}
+
