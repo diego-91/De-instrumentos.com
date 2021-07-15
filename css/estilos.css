@@ -1,0 +1,228 @@
+body{
+	background:url("../Imagenes/dust_scratches.png");
+	margin:0 auto;
+	padding:0;
+}
+#contenedor{
+	max-width:1170px;
+	margin:0 auto;
+	width:71.2%;
+}
+header{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	height:100px;
+	padding-top:6px;
+	position:fixed;
+	text-align:center;
+	top:0px;
+	width:71.2%;
+	}
+	header #btn-menu{
+		display:none;
+	}
+	header label{
+	display:none;
+	}
+	.logo{
+		background:url(../Imagenes/Logo.png);
+		background-repeat:no-repeat;
+		display:inline-block;
+		height:47px;
+		text-indent:-3000px;	
+		width:438px;
+		}
+	.socmed{
+	color:rgb(226,226,226);
+	font-size:25px;
+	margin-right:10px;
+	margin-top:7px;
+	float:right;
+	transition:0.4s;		
+	}
+	.socmed:hover{
+		color:rgba(232, 105, 0, 0.99);
+	}
+
+   nav{
+ 	margin-top:-12px;
+ 	/*margin-left:-50px: colocada aca mueve la caja nav hacia izquierda o derecha y arrastra al menu*/
+ 	}  	
+  	/*es un ul contenedor del menu principal*/
+ 	nav #menuprincipal{		
+ 	list-style-type:none;
+	margin-top:19px;
+ 	padding:0;
+ 	position:fixed;
+    width:72.4%;
+ 		/*colocado aca mueve hacia izquierda o derecha solo todo el menu principal respetando sus margenes que estan en el selector li*/	
+		}
+ 		/*estilos del menu principal*/
+ 		nav #menuprincipal .li{
+ 			background:rgb(68,68,68);
+  			float:left; 
+ 			margin-right:1.2%;
+ 			position:relative;
+ 			width:15.4%;
+			}
+ 			/*estilos del hipervinculo*/
+ 			nav #menuprincipal .li a{
+ 				color:rgb(226,226,226);
+ 				display:block;
+ 				height:28px;
+ 				text-decoration:none;
+ 				font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+ 				font-weight:bold;
+ 				padding-top:5px;
+ 				transition:0.3s; 				
+ 				}
+ 				/*efectos sobre el hipervinculo*/
+ 				nav #menuprincipal .li a:hover{
+ 					background:rgb(62,62,62);
+ 					color:rgba(232,105,0, 0.99);
+ 				    }
+ 				nav #menuprincipal .li .arrow{
+ 					display:none;
+ 				}
+ 				/*estilos sobre el contenedor de las listas secundarias*/ 
+ 				nav #menuprincipal .li ul{
+ 					background:rgb(68,68,68);
+ 					box-sizing: border-box;
+ 					display:none;
+  					list-style-type:none;
+  					position:absolute;
+  					width:148px;
+  					} 				    
+ 				/*efecto que se da cuando hago click sobre el menu principal y afecta tanto al menu secundario como a los siguientes*/
+ 				nav #menuprincipal .li:hover ul{
+ 					display:block;
+ 				    }
+ 				    /*efectos sobre todos los li secundarios y siguientes de todos los ul scundarios y siguientes*/
+ 				nav #menuprincipal .li ul li{
+ 					margin-left:-40px;				
+				    }
+			 nav #menuprincipal .li ul li a{
+					font-weight:normal;
+					}
+.wrapper{
+	width:79%;
+	background: rgb(68,68,68);
+	box-sizing:border-box;
+	float:left;
+	padding-left:29px;
+	padding-right:29px;
+	padding-bottom: 23px;
+	margin-bottom:8px;
+	margin-top:139px;
+	}				    
+.wrapper #bienvenida{
+	box-sizing:border-box;
+	margin-bottom:12px;
+	margin-top:70px;
+	width:100%;
+	}
+	.wrapper #bienvenida h2{
+		color:rgba(232, 105, 0, 0.99);
+		font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+		font-weight:400;
+		text-align:center;
+		margin-bottom:-12px;
+		margin-top:-50px;
+	}
+	.wrapper #bienvenida p{
+		color:rgb(226,226,226);	
+		font-family: "Homizio Medium", "Homizio", "Homizio thin";
+		font-weight:500;
+		margin-bottom:-3px;
+	}
+	.introducciones h3{
+	color:rgba(232, 105, 0, 0.99);
+	font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+	font-size:24px;
+	font-weight:400;
+	height:34px;
+	margin-bottom:-14px;
+	margin-top:3px;
+	padding-top:5px;
+}
+	.introducciones > p{
+	font-family:"Homizio Medium", "Homizio", "Homizio thin";
+	color:rgb(226,226,226);	
+}
+	.contenido{
+     	border:0.9px solid;
+		color:#e2e2e2;
+		height:auto;
+		margin:24px auto;
+		padding-top:8px;
+		width:87%;
+	}
+	.contenido img{
+	float:left;
+	margin-left:5%;
+	margin-top:4px;
+	width:43%;
+}
+.contenido h4{
+	color:rgba(232, 105, 0, 0.99);	
+	font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+	font-weight:bolder;
+	font-size:23px;
+	margin-left:55%;
+	margin-bottom:-15px;
+	margin-top:20px;
+}
+.contenido p{	
+	margin-left:55%;
+	font-family:"Homizio Medium", "Homizio", "Homizio thin";
+	font-size:15px;
+	padding-bottom:5%;
+	width:40%;
+	/*colocando esto de width 40% el ancho se ajusta por el lado izquierdo y deja un margen derecho, como si hubiera colocado un padding-right:tanto valor por ciento en el .contenido;
+	background:lime;*/
+}
+.contenido a{
+	color:rgb(226,226,226);
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-weight:700;
+	text-decoration:none;
+}
+.separadores img{
+	width:100%;
+}
+aside{
+	float:right;
+	margin-top:139px;
+	width:20%;
+}
+footer{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	clear:both;
+	color: rgb(226,226,226);
+	font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+	font-size:17px;
+	height:70px;
+	padding-left:9px;
+	padding-top:23px;
+	width:100%;
+}
+footer .redsoc{
+	color:rgb(226,226,226);
+	font-size:25px;
+	padding-left:8px;
+	transition: 0.3s;
+}
+footer .redsoc:hover{
+	color: rgba(232, 105, 0, 0.99);
+}
+span{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-24px;
+	width:310px;
+	height:23px;
+}
+
+
