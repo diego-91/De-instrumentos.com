@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>De instrumentos.com</title>
+
+	<!--favicon-->
+	<link rel="shortcut icon" href="favicon.ico"/>
+
+	<!--Escritorio-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+
+	<!--Tablets-->
+	<link rel="stylesheet" type="text/css" href="tablets/tablets.css" media="screen and (min-width:481px) and (max-width:768px) and (orientation:landscape)"/>
+
+	<link rel="stylesheet" type="text/css" href="tablets/tablets.css" media="screen and (min-width:481px) and (max-width:768px) and (orientation:portrait)"/>
+
+	<!--Moviles-->
+	<link rel="stylesheet" type="text/css" href="moviles/moviles.css" media="screen and (min-width:0px) and (max-width:480px) and (orientation:landscape)"/>
+
+	<link rel="stylesheet" type="text/css" href="moviles/moviles.css" media="screen and (min-width:0px) and (max-width:480px) and (orientation:portrait)"/>
+
+	<script src="js/all.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--importo jquery desde internet para usar sus funcionalidades mediante este link-->
+</head>
+<body>
+
+<!--contenedor del sitio-->
+<div id="contenedor">
+	<header>
+		<input type="checkbox" id="btn-menu">
+		<label for ="btn-menu"><i class="menu fas fa-bars"></i></label>
+		<a href="index.html"><h1 class="logo">De instrumentos.com</h1></a>
+		<a href="https://www.instagram.com/" target="new"><i class= "socmed fab fa-instagram"> </i></a>
+		<a href="https://ar.pinterest.com/" target="new"> <i class= "socmed fab fa-pinterest"> </i></a>		
+		<a href="https://es-la.facebook.com/" target="new"> <i class= "socmed fab fa-facebook-square"> </i></a>
+    <nav>
+		<ul id="menuprincipal"> <!--EL UL SIGNIFICA QUE LOS ITEMS NO ESTAN ORDENADOS POR NUMEROS COMO EN UN LIBRO DE DERECHO-->
+			<li class="li">
+				<a href="index.html">HOME</a>
+			</li>
+			<li class="li">
+				<a href="#">Cuerda<i class="arrow fas fa-angle-down"></i></a>
+				<ul>
+					<li>
+						<a href="piano de cola.html">Piano de cola</a>
+					</li>
+					<li>
+						<a href="guitarra.html">Guitarra</a>
+					</li>
+				</ul>
+			</li>
+			<li class="li">
+				<a href="#">Viento<i class="arrow fas fa-angle-down"></i></a>
+				<ul>
+					<li>
+						<a href="#">Oboe</a>
+					</li>
+				</ul>
+			</li>
+			<li class="li">
+				<a href="#">Percusión<i class="arrow fas fa-angle-down"></i></a>
+				<ul>
+					<li>
+						<a href="#">Triángulo</a>
+					</li>
+				</ul>
+			</li>
+			<li class="li">
+				<a href="#">De famosos<i class="arrow fas fa-angle-down"></i></a>
+				<ul>
+					<li>
+						<a href="Paul.html">Paul McCartney</a>
+					</li>
+				</ul>
+			</li>
+			<li class="li">
+				<a href="#">Contacto</a>
+			</li>
+		</ul>
+		<div style="clear: both"></div><!--sirve para que lo que sigue abajo no tenga float derecha o izquierda-->
+	</nav>
+	</header>
+   <section class="wrapper">
+<section>
+    <article id="bienvenida">
+		<h2>BIENVENIDO A De instrumentos.com </h2>
+	 	   <p>  
+           En este sitio conocerás un poco de la historia de cada instrumento como asi también las características que te permitirán identificarlo. sumado a esto, le dedicamos una sección especial para hablar de reconocidos artistas y compositores que ejecutan algún instrumento musical. Espero que sea de tu interés.		
+		</p>
+		<hr noshade="noshade" color="e2e2e2" size="1" width="100%"/>	
+	</article>
+</section>
+<section>
+	<article class="introducciones">
+		<h3>CUERDA</h3>
+		<div class="hr">
+		<hr noshade="noshade" color="e2e2e2" width="100%" size="1"/>
+		</div>	
+			<p>
+				En esta sección aprenderás sobre los instrumentos de cuerda, como la guitarra o el piano decola que son ejecutados mediante rasguidos o a través de pulsaciones respectivamente.
+			</p>
+	</article>
+</section>
+<section>
+	<article class="contenido">
+		<img src="Imagenes/guitarra criolla.png" alt="Guitarra criolla"/>
+		<h4>GUITARRA</h4>
+			<p>
+				Es también conocida como <strong>guitarra clásica </strong> o <strong>guitarra española</strong>. Es un instrumento de cuerda pulsada compuesto de...&nbsp<a href="cuerda.html"> Leer más</a>
+			</p>    
+    </article>
+	<article class="contenido">
+		<img src="Imagenes/piano de cola.png" alt="Piano de cola"/>
+		<h4>PIANO DE COLA</h4>
+			<p>
+				Piano de gran tamaño cuya caja tiene una forma parecida a un ala y en el que las cuerdas están extendidas horizontalmente. Es un instrumento...&nbsp<a href="#"> Leer más </a>
+			</p>
+	</article>
+</section>
+	<div class="separadores">
+		<img src="Imagenes/jon_bon_jovi.png" alt="bon jovi">
+	</div>	
+	<section class="Wrapper">
+		<article class="introducciones">
+			<h3>VIENTO</h3>
+			<hr noshade="noshade" color="#e2e2e2" size="1"/>	
+			<p>
+				Instrumentos como la trompeta o el saxofón son los que se encuentran dentro de esta sección denominada DE VIENTO los cuales son ejecutados mediante el soplido en su orificio.
+			</p>
+		</article>
+
+			<article class="contenido">
+				<img src="Imagenes/trompeta.png" alt="Trompeta"/>
+				<h4>TROMPETA</h4>
+				<p>
+					La trompeta es un instrumento de esta sección fabricado en aleacion de metal. Su sonido se produce gracias a la vibración de los labios de quien lo ejecuta justo en el orificio de...&nbsp<a href="#"> Leer más</a>
+				</p>    
+		    </article>
+
+			<article class="contenido">
+				<img src="Imagenes/saxofon.png" alt="Saxofón"/>
+				<h4>SAXOFÓN</h4>
+				<p>
+					Este instrumento conocido tambien conocido como <strong>saxo</strong> o <strong>saxófono</strong> tiene forma de cono cuyo material está hecho de latón. Fue inventado por Adolphe Sax...&nbsp<a href="#"> Leer más </a>
+				</p>
+			</article>
+	</section>
+
+	<div class="separadores">
+		<img src="Imagenes/instrumentos.png" alt="instrumentos">
+	</div>	
+
+	<section class="Wrapper">
+		<article class="introducciones">
+			<h3>PERCUSIÓN</h3>
+			<hr noshade="noshade" color="#e2e2e2" size="1"/>	
+			<p>
+				En esta tercera seccion denominada <strong>Percusión</strong> conocerás de instrumentos como la batería o el bongó que se ejecutan mediante golpes
+			</p>
+		</article>
+
+			<article class="contenido">
+				<img src="Imagenes/bongos.png" alt="Trompeta"/>
+				<h4>BONGÓ</h4>
+				<p>
+					El bongó es un instrumento de percusión compuesto de dos tambores pequeños de madera unidos por una pieza del mismo material. La parte superior esta cubierta...&nbsp<a href="#"> Leer más</a>
+				</p>    
+		    </article>
+
+			<article class="contenido">
+				<img src="Imagenes/bateria.png" alt="Saxofón"/>
+				<h4>BATERIA</h4>
+				<p>
+					Uno de los instrumentos más famosos es la <strong>BATERIA</strong>. La bateria esta compuesta or un conjuntode tambores hechos de madera cubiertos por...&nbsp<a href="#"> Leer más </a>
+				</p>
+			</article>
+	</section>
+
+	<div class="separadores">
+		<img src="Imagenes/sabias que.png" alt="sabias que">
+	</div>	
+
+	<section class="Wrapper">
+		<article class="introducciones">
+			<h3>DE FAMOSOS</h3>
+			<hr noshade="noshade" color="#e2e2e2" size="1"/>	
+			<p>
+				En esta última sección denominada <strong>De famosos</strong> también conocerás de forma detallada los instrumentos de reconocidos artistas musicales tales como Paul Mccartney o Julieta Venegas, entre otros
+			</p>
+		</article>
+
+			<article class="contenido">
+				
+				<img src="Imagenes/Paul McCartney.png" alt="Trompeta"/>
+				<div class="divs">
+					<h4>BAJO DE PAUL MCCARTNEY</h4>
+				<p>
+					Karl Höfner GmbH & Co. KG es una compañía alemana que se dedica a la fabricación de instrumentos musicales, principalmente guitarras, bajos y otros tipos...&nbsp<a href="#"> Leer más</a>
+				</p>  
+				</div>  
+		    </article>
+
+			<article class="contenido">
+				<img src="Imagenes/Julieta Venegas.png" alt="Saxofón"/>
+				<div class="divs">
+						<h4>ACORDEÓN DE JULIETA VENEGAS</h4>
+				<p>
+					Los Acordeones Gabbanelli se mantienen como uno de los pilares de la Música Regional Mexicana. Su fundador  fundador, Gianfranco “John” Gabbanelli...&nbsp<a href="#"> Leer más </a>
+				</p>
+			</div>
+			</article>	
+	</section>
+</section>
+<aside>
+	<a href="https://www.coca-cola.com.ar/es/home/" target="new"> <img src="Imagenes/coca cola.jpg" width="100%"></a>	
+	<a href="http://www.sisarquitectos.com.ar/" target="new"> <img src="Imagenes/sis arquitectos.png" width="100%"></a>
+	<a href="	https://www.bancocredicoop.coop/personas" target="new"> <img src="Imagenes/credicoop.png" width="100%"></a>	
+</aside>
+<footer>
+		<a href="https://es-la.facebook.com/" target="new"><i class="redsoc fab fa-facebook-square"></i></a>
+		<a href="https://www.pinterest.com/" target="new"> <i class="redsoc fab fa-pinterest"> </i></a>
+		<a href="https//www.instagram.com/?hl=es-la})" target="new"> <i class="redsoc fab fa-instagram"> </i></a>
+		<span>&copy; De instrumentos.com - Creado por DGR</span>
+</footer>
+<script src="js/menu.js"></script>
+</body>
+</html>
+
