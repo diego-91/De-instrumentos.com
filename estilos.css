@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: rgba(52, 73, 94,1.0);
+}
+#contenedor{
+	width: 96%;
+	max-width:960px; 
+	margin: 0 auto;
+}
+#contenedor .primero{
+	background: rgb(207,0,15);
+	width: 33%;
+	float: left;
+	height: 400px;
+}
+#contenedor .segundo{
+	background: rgb(34,167,240);
+	width: 33%;
+	float: left;
+	height: 400px;
+}
+#contenedor .tercero{
+	background: rgb(38,166,91);
+	width: 33%;
+	float: left;
+	height: 400px;
+}
+/*Media Queries*/
+/*Moviles*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+	body{
+		background: rgba(26, 188, 156,1.0); 
+	}
+	#contenedor .primero,#contenedor .segundo,#contenedor .tercero{
+		width: 100%;
+		float: none;
+	}
+
+} 
+/*Tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+/*
+media="screen and (min-width:480px) and (max-width:768px)"
+*/
+
+	body{
+		background: rgba(230, 126, 34,1.0); 
+	}
+	#contenedor .primero{
+		width: 100%;
+		float: none;
+	}
+	#contenedor .segundo{
+		width:50%;
+	}
+	#contenedor .tercero{
+		width: 50%;
+	}
+
+}
+/*Desktop*/  
+@media screen and (min-width: 769px) and (max-width: 1170px){
+	body{
+		background: rgba(149, 165, 166,1.0); 
+	}
+}
+/*Large Desktop*/
+@media screen and (min-width: 1171px){
+	body{
+		background: rgba(192, 57, 43,1.0); 
+	}
+}
+

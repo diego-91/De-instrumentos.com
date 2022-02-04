@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--normalize sirve para mantener los mismos estilos en todos los navegadores-->
+	<link rel="stylesheet" href="normalize.css"/>
+
+	<meta charset="UTF-8">
+
+	<title>De instrumentos.com</title>
+
+	<!--favicon-->
+	<link rel="shortcut icon" href="favicon.ico"/>
+
+	<link rel="stylesheet" type="text/css" href="pandereta/pandereta.css"/>
+
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
+	<script src="js/all.js"></script>
+</head>
+
+<body>
+	<div id="contenedor">
+
+		<!--HEADER-->
+		<header>
+			<input type="checkbox" id="btn-menu"><!--es el campo-->
+			<label for="btn-menu"><i class="menu fas fa-bars"></i></label>
+			<div id="marca"><a href="index.html"><h1 class="logo">De instrumentos.com</h1></a></div>
+			<div id="redes">
+				<a href=" https://www.instagram.com/?hl=es" target="new"><i class="socmed fab fa-instagram"></i></a>
+				<a href="https://ar.pinterest.com/" target="new"><i class="socmed fab fa-pinterest"></i></a>
+				<a href="https://es-la.facebook.com/" target="new"><i class="socmed fab fa-facebook-square"></i></a>
+			</div>
+			<!--MENU-->
+			<nav>
+			<ul id="menuprincipal">
+				<li class="li">
+					<a href="index.html">HOME</a>
+				</li>
+				<li class="li">
+					<a href="#">Cuerda<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="piano de cola.html">Piano de cola</a>
+						</li>
+					</ul>
+				</li>
+				<li class="li">
+					<a href="#">Viento<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="oboe.html">Oboe</a>
+						</li>
+					</ul>
+				</li>
+				<li class="li">
+					<a href="#">Percusión<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="pandereta.html">Pandereta</a>
+						</li>				
+					</ul>
+				</li>
+				<li class="li">
+					<a href="#">De famosos<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="Hofner.html">Hofner</a>
+						</li>
+					</ul>
+				</li>
+				<li class="li">
+					<a href="contacto.html">Contacto</a>
+				</li>
+			</ul>
+				<div style="clear:both"></div><!--elimina el float de los contenidos siguientes-->
+		</nav>
+		</header>
+		<section id="wrapper">
+			<article>
+				<h2>PANDERETA</h2>
+				<hr noshade="noshade" color="E2E2E2" size="1"/>
+				<h3>Definición</h3>
+				<p>
+					La <i>pandereta</i> es un instrumento de percusión con tono indeterminado y está formado por uno o dos aros que están superpuestos de poco grosor provistos de ferreñas de latón o hierro. Las hay de plastico. Su sonido se asimila al de un sonajero agudo, aunque también puede sonar mas apagado golpeando su parte central.
+					posee una forma circular y suele estar incluido junto a la bateria (otro instrumento de percusión)
+				</p>
+				<div>
+					<img id="img"src="Imagenes/pandereta.jpg" width="40%" title="Pandereta" alt="Pandereta"/>
+					<img id="img2" src="Imagenes/Pandero.jpg" width="40%" title="Pandero" alt="Pandero"/>
+				</div>
+				<h3>Partes de la pandereta</h3>
+				<p>
+					Este instrumento circular está compuesto de tres partes: <i>parche/membrana,</i> <i>arco de madera</i> y <i>sonajas de servicio</i>.
+					<ul>
+						<li>
+							<span>
+								PARCHE/MEMBRANA: Se trata de la parte donde se golpea para emitir un sonido
+							</span>
+						</li>
+						<li>
+							<span>
+							ARCO DE MADERA: Es la parte circular que rodea al parche
+							</span>
+						</li>
+						<li>
+							<span>
+							SONAJAS METÁLICAS: Es el elemento central de este instrumento. Se trata de un conjunto de laminas de metal redondas que producen el sonido principal.
+						</span>
+						</li>
+					</ul>
+				</p>
+				<audio controls preload="auto">
+					<source src="audios/pandereta.mp3" type="audio/mp3"/>
+					<source src="audio/pandereta.ogg" type="audio/ogg"/>
+					<source src="audio/wav" type="audio/wav"/>
+				</audio>
+				<h3>Historia</h3>
+				<p>
+					La pandereta nació en paises como la India, Grecia y Roma. Solía ser usada en rituales religiosos. En la Edad Media solía ser usada por juglares y trovadores. Y en el siglo XVIII, compositores como Mozart ya añadían este instrumento en sus obras, Tambien Gustav Holst, Piotr Ilich Chaicovski solían usar este instrumento en sus composiciones.
+				</p>
+				<video controls>
+					<source src="video/pandereta.mp4" type="video/mpeg"/>
+					<source src="videos/pandereta.ogv" type="video/ogv"/>
+					<source src="videos/pandereta.webm" type="video/webm"/>
+					<embed src="videos/pandereta.mp4"></embed>
+					</video> 
+				</video>
+			</article>
+		</section>
+		<aside>
+			<a href="https://www.cocacoladeargentina.com.ar/inicio"><img src="Imagenes/coca cola.jpg" width="100%"></a>
+			<a href="http://www.sisarquitectos.com.ar/"><img src="Imagenes/sis arquitectos.png" width="100%"></a>
+			<a href="https://www.bancocredicoop.coop/personas"><img src="Imagenes/credicoop.png" width="100%"></a>
+		</aside>
+		<footer>
+			<div id="box">
+				<a href="https://m.facebook.com/login/?locale=es_ES"><i class="redsoc fab fa-facebook-square"></i></a>
+				<a href="https://ar.pinterest.com/"><i class="redsoc fab fa-pinterest"></i></a>
+				<a href="https://www.instagram.com/?hl=es"><i class="redsoc fab fa-instagram"></i></a>
+			</div>
+			<span>De instrumentos.com - Creado por DGR</span>
+		</footer>
+	</div>
+<script src="js/menu.js"></script>
+</body>
+</html>

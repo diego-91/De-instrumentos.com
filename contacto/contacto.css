@@ -1,0 +1,475 @@
+body{
+	background:url("../Imagenes/dust_scratches.png");
+	margin: 0;
+}
+#contenedor{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1360px;
+	width: 90%;
+}
+	header{
+		background:rgb(68,68,68);
+		box-sizing:border-box;
+		height:100px;
+		padding-top:5px;
+		position:fixed;
+		top:0;
+		width:90%;
+	}	
+		header #btn-menu{
+			display: none;
+		}
+		header label{
+			display: none;
+		}
+		header #marca{
+			margin-left: auto;
+			margin-right: auto;
+			width: 438px;
+		}
+		header #redes{
+			margin-right: 14px;
+			margin-top: -79px;
+		}
+
+		header .logo{
+			background:url("../Imagenes/logo.png");
+			background-repeat:no-repeat;
+			height:47px;
+			text-indent:-3000px;
+			width:438px;
+		}
+	header .socmed{
+		color:rgb(226,226,226);
+		font-size:25px;
+		float:right;
+		margin-top:7px;
+		margin-right:10px;
+		transition:0.4s;
+	}
+	.socmed:hover{
+		color:rgba(232, 105, 0, 0.99);
+	}
+nav{
+		margin-top: 108px;
+		text-align: center;
+	}
+		nav #menuprincipal{
+			height: 30px;
+			list-style-type: none;
+			margin-bottom: 6px;
+			padding: 0;
+			width: 101.7%;
+		}
+			nav #menuprincipal .li{
+				float: left;
+				margin-right: 1.2%;
+				position: relative;
+				width: 15.4%;
+			}
+				nav #menuprincipal .li a{
+					background: rgb(68,68,68);
+					color: rgb(226,226,226);
+					display: block;	
+					font-weight: bold;
+					height: 28px;
+					font-family: "Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";;
+					padding-top: 5px;
+					text-decoration: none;
+				}
+				nav #menuprincipal .li a:hover{
+					background: rgb(62,62,62);
+					color: rgba(232, 105, 0, 0.99);
+					transition: 0.4s;
+				}
+					nav #menuprincipal .li .fa-angle-down{
+						display: none;
+					}
+						nav #menuprincipal .li ul{
+							display: none;
+							list-style-type: none;
+							position: absolute;
+						}
+							nav #menuprincipal .li ul li{
+								margin-left: -40px;
+								width: 140px;
+							}
+								nav #menuprincipal .li ul li a{
+									font-weight: normal;
+								}
+								nav #menuprincipal .li:hover ul{
+									display: block;
+								}			
+#wrapper{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	float:left;
+	margin-bottom:8px;
+	margin-top:137px;
+	width:83.2%;
+}
+	#wrapper .destacado{
+		border:solid 0.5px;
+		color:rgb(226,226,226);
+		margin-bottom:50px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:45px;
+		width:70%;
+	}
+		#wrapper .destacado h2{
+			color:rgba(232, 105, 0, 0.99);
+			font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+			font-size:27px;
+			font-weight:200;
+			letter-spacing:0.1px;
+			margin-bottom:-11px;
+			margin-left:12px;
+			margin-top:12px;
+		}
+		#wrapper #formcontacto{
+			letter-spacing: 2px;
+			margin-left:auto;
+			margin-right:auto;
+			width:72%;
+			font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+			font-size:19px;
+			font-weight: 700;
+
+		}
+	#formcontacto input{
+		border:0;
+		color:rgb(68,68,68);
+		font-size:15px;
+		margin-bottom:10px;
+		outline:none;
+		padding:7px;
+		transition:0.4s;
+		width:95.4%;
+	}
+	#formcontacto input:hover{
+		background:rgb(226,226,226);
+	}
+	#formcontacto select{
+		border:0;
+		margin-bottom: 10px;
+		outline:none;
+		padding:7px;
+		width:101%;
+		transition:0.4s;
+	}
+	#formcontacto select:hover{
+		background:rgb(226,226,226);
+	}
+	#formcontacto #mensaje{
+		display: block;
+		margin-bottom: 2px;
+	}
+	#formcontacto input[type="radio"]{
+		width:auto;
+		margin-right: 2%;
+	}	
+	#formcontacto .opciones{
+		display: inline-block;
+		font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+		font-weight: normal;
+		letter-spacing: 1px;
+		margin-right: 1.5%;
+	}
+	#formcontacto textarea{
+		border:0;
+		color:rgb(68,68,68);
+		font-size:17px;
+		margin-bottom: 8px;
+		outline:none;
+		transition:0.4s;
+		width:99%;
+	}
+	#formcontacto textarea:hover{
+		background:rgb(226,226,226);
+	}
+	#formcontacto input[type="submit"]{
+		background:rgb(68,68,68);
+		border:solid 0.5px;
+		box-sizing: border-box; 
+		color:rgb(226,226,226);
+		font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+		font-size:17px;
+		height:32px;
+		letter-spacing:0.5px; 
+		margin-bottom:15px;
+		padding:1px;
+		width:30%;	
+	}
+	#formcontacto input[type="submit"]:hover{
+		border: solid rgb(232, 105, 0, 0.99) 0.5px;
+		height:32px;
+	}
+	aside{
+		float:right;
+		margin-bottom: 8px;
+		margin-right:0px;
+		margin-top:137px;
+		width:16%;
+	}
+	footer{
+		background:rgb(68,68,68);
+		clear:both;
+		color:rgb(226,226,226);
+		font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+		font-size:17px;
+		padding-bottom: 25px;
+		padding-top: 23px;
+	}
+	footer #box{
+		float:left;
+		margin-left:25px;
+	}
+	footer .redsoc{
+		color:rgb(226,226,226);
+		font-size:25px;
+		padding-left:5px;
+		transition:0.4s;
+	}
+	footer .redsoc:hover{
+		color:rgba(232, 105, 0, 0.99);
+	}
+	footer span{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:2px;
+		width: 287px;
+	}
+/*móviles*/
+@media screen and (min-width: 0px) and (max-width: 480px){
+	#contenedor{
+		width: 100%;
+	}
+		header{
+			height: 50px;
+			width: 100%;
+		}
+			#btn-menu:checked ~ nav #menuprincipal{
+				transform: translateX(0%);
+				transition: 0.1s;
+			}
+			header label{
+				border: solid 1px rgb(226,226,226);
+				color: rgb(226,226,226);
+				display: block;
+				margin-left: 14px;
+				margin-top: 9px;
+				padding-bottom: 1px;
+				padding-left: 3.7px;
+				padding-right: 5px;
+				padding-top: 1.7px;
+				position: absolute;
+				width: 13px;
+			} 
+			header #marca{
+				height: 1px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: -11px;
+				width: 207px;
+			}		
+				header #marca .logo{
+					background: url("../Imagenes/logo_responsive.png");
+					background-repeat: no-repeat;
+					height: 20px;
+					width: 206px;
+				}
+				header #redes{
+					display:none;
+				}
+			nav{
+				margin-top: 37px;
+				text-align: left;
+			}
+				nav #menuprincipal{
+					transform: translateX(-100%);
+					transition: 0.1s;
+				}
+					nav #menuprincipal .li{
+						float: none;
+						width: 70%;
+					}
+						nav #menuprincipal .li a{
+							background: rgb(62,62,62);
+							padding-left: 17px;
+						}
+						nav #menuprincipal .li a:hover{
+							background: rgb(62,62,62);
+							color: rgb(226,226,226);
+						}
+							nav #menuprincipal .li .fa-angle-down{
+								display: block;
+								float: right;
+								margin-right: 16px;
+							}
+							nav #menuprincipal .li ul{
+								background: rgb(62,62,62);
+								position: static;
+							}
+							nav #menuprincipal .li:hover ul{
+								display: none;
+							}
+								nav #menuprincipal .li ul li{
+									margin-left: 12%;
+									width: 88%;
+								}
+									nav #menuprincipal .li ul li a{
+										background: rgb(68,68,68);
+									}
+									nav #menuprincipal .li ul li a:hover{
+										background: rgb(68,68,68)
+									}
+		#wrapper{
+			margin-top: -85px;
+			width: 100%;
+		}	
+			#wrapper .destacado{
+				margin-top: 45px;
+			}
+			#wrapper #formcontacto .opciones{
+				display: block;
+				margin-left: 19px;
+				margin-top: -28px;
+				width: 90px;
+			}
+			#wrapper #formcontacto textarea{
+				margin-bottom: 9px;
+			}	
+		aside{
+			float: none;
+			width: 100%;
+		}
+		footer{
+			clear: both;			
+			padding-top: 16px;
+			padding-bottom: 15px;
+			text-align: center;
+		}		
+			footer #box{
+				float: none;
+				margin-bottom: 7px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 98px;
+			}
+			footer #box .redsoc:hover{
+				color: rgb(226,226,226);
+			}
+			footer span{
+				width: 85%;
+			}
+}
+/*Tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+	#contenedor{
+		width: 100%;
+	}
+		header{
+			height: 50px;
+			text-align: center;
+			width: 100%;
+		}
+			header label{
+				border: solid 1px rgb(226,226,226);
+				color: rgb(226,226,226);
+				display: block;
+				margin-left: 14px;
+				margin-top: 9px;
+				padding-bottom: 1px;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-top: 1.5px;
+				position: absolute;
+			}
+			#btn-menu:checked ~ nav #menuprincipal{
+				transform: translateX(0%);
+				transition: 0.1s;
+			}
+			header #marca{
+				margin-top: -11px;
+				width: 206px;
+			}
+				header #marca .logo{
+					background: url("../Imagenes/logo_responsive.png");
+					background-repeat: no-repeat;
+					height: 21px;
+				}
+			header #redes{
+				display: none;
+			}	
+		nav{
+			margin-top: -6px;
+			text-align: left;
+		}	
+			nav #menuprincipal{
+				transform: translateX(-100%);
+				transition: 0.1s;
+			}
+				nav #menuprincipal .li{
+					float: none;
+					width: 70%;
+				}
+					nav #menuprincipal .li a{
+						background: rgb(62,62,62);
+						padding-left: 17px;
+					}
+					nav #menuprincipal .li a:hover{
+						color: rgb(226,226,226);
+					}
+					nav #menuprincipal .li .fa-angle-down{
+						display: block;
+						float: right;
+						margin-right: 16px;
+						margin-top: 4px;
+					}
+					nav #menuprincipal .li ul{
+						background: rgb(62,62,62);
+						position: static;
+					}
+					nav #menuprincipal .li:hover ul{
+						display: none;
+					}					
+						nav #menuprincipal .li ul li{
+								width: 87%;
+								margin-left: 13%;
+							}
+							nav #menuprincipal .li ul li a{
+								background: rgb(68,68,68);							
+							}							
+							nav #menuprincipal .li ul li a:hover{
+								background: rgb(68,68,68);
+							}
+	#wrapper{
+		margin-top: -85px;
+		width: 100%;
+	}
+		#formcontacto input[type="submit"]:hover{
+			border: solid 0.5px rgb(226,226,226);
+		}
+	aside{
+		float: none;
+		width: 100%;
+	}
+	footer{
+		clear: both;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+		footer #box{
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+			width: 99px;
+		}
+			footer #box .redsoc:hover{
+				color: rgb(226,226,226);
+			}	
+}
+

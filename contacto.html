@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>De instrumentos.com</title>
+
+<link rel="stylesheet" href="normalize.css"/>
+
+<link rel="shortcut icon" href="favicon.ico"/>
+
+<link rel="stylesheet" type="text/css" href="contacto/contacto.css"/>
+
+<meta name="viewport" content="width-device-width, inital-scale=1.0">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="js/all.js"></script>
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu"><i class="fas fa-bars"></i></label>
+			<div id="marca">
+				<a href="index.html"><h1 class="logo">De instrumentos.com</h1></a>
+			</div>
+			<div id="redes">
+				<a href="https://www.instagram.com" target="new">
+				<i class="socmed fab fa-instagram"></i></a>
+				<a href="https://ar.pinterest.com/" target="new">
+				<i class="socmed fab fa-pinterest"></i></a>
+				<a href="https://es-la.facebook.com/">
+				<i class="socmed fab fa-facebook-square"></i></a>
+			</div>
+		<nav>
+			<ul id="menuprincipal">
+				<li class="li">	
+					<a href="index.html"></i>HOME</a>
+				</li>
+				<li class="li">
+					<a href="#">Cuerda<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="piano de cola.html">Piano de cola</a>
+						</li>
+					</ul>
+				</li>
+				<li class="li">
+					<a href="#">Viento<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>							<a href="oboe.html">Oboe</a>
+						</li>
+					</ul>
+				<li class="li">
+					<a href="#">Percusión<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="pandereta.html">Pandereta</a>
+						</li>	
+					</ul>
+				</li>
+				<li class="li">
+					<a href="#">De famosos<i class="fas fa-angle-down"></i></a>
+					<ul>
+						<li>
+							<a href="Hofner.html">Hofner</a>
+						</li>
+					</ul>
+				</li>
+				<li class="li">
+					<a href="contacto.html">Contacto</a>
+				</li>
+			</ul>
+			<div style="clear:both"></div>
+		</nav>
+		</header>
+		<section id="wrapper">
+			<article class="destacado">
+				<h2>Contacto</h2>
+					<hr color="e2e2e2" noshade="noshade" size="1" width="99.6%"/>
+				<form action="mailto:diego_g_ramirez@hotmail.com"method="post" id="formcontacto">
+					<label>
+						Nombre
+						<input type="text" name="nombreApellido required autofocus"/>
+					</label>
+					<label>
+						E-mail
+						<input type="email" name="email" required pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*[@a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,5})$" placeholder="formato: nombre@dominio.com"/><br>
+					</label>
+						Provincia
+						<select name="Provincia">
+							<optgroup label="Seleccione...">
+								<option>Buenos Aires</option> <option>Catamarca</option>
+								<option>Chaco</option>
+								<option>Chubut</option>
+								<option>Córdoba</option>
+								<option>Corrientes</option>
+								<option>Entre Ríos</option>
+								<option>Formosa</option>
+								<option>Jujuy</option>
+								<option>La Pampa</option>
+								<option>La Rioja</option>
+								<option>Mendoza</option>
+								<option>Misiones</option>
+								<option>Neuquén</option>
+								<option>Río Negro</option>
+								<option>Salta</option>
+								<option>San Juan</option>
+								<option>San Luis</option>
+								<option>Santa Cruz</option>
+								<option>Santa Fe</option>
+								<option>Santiago del Estero</option>
+								<option>Tierra del Fuego, Antártida e Isla del Atlántico Sur</option>
+								<option>Tucumán</option>
+								<option selected></option>
+							</optgroup>
+						</select>
+					<label>
+					<span id="mensaje">Tipo de mensaje</span>
+					<input type="radio" name="Tipomensaje" value="Sugerencia"><span class="opciones">Sugerencia</span></label>
+					<label><input type="radio" name="Tipomensaje" value="Colaboración"><span class="opciones">Colaboración</span>
+					</label><br>
+					<label>Mensaje<br><textarea name="mensaje" placeholder="Ingrese su mensaje aqui" required></textarea></label><br>
+					<input type="submit" value="Enviar"/>
+				</form>
+			</article>
+		</section>
+		<aside>
+			<a href="https://www.cocacolalatinamerica.com/ar/es/home" target="new"><img src="Imagenes/coca cola.jpg" width="100%"/>
+			</a>
+			<a href="http://www.sisarquitectos.com.ar/" target="new"><img src="Imagenes/sis arquitectos.png" width="100%"/>
+			</a>
+			<a href="https://www.bancocredicoop.coop/personas" target="new"><img src="Imagenes/credicoop.png" width="100%"/>
+			</a>
+		</aside>
+		<footer>
+			<div id="box">
+				<a href="https://es-la.facebook.com/" target="new"><i class="redsoc fab fa-facebook-square"></i></a>
+				<a href="https://ar.pinterest.com/" target="new"><i class="redsoc fab fa-pinterest"></i> </a>
+				<a href="https://www.instagram.com/" target="new"><i class="redsoc fab fa-instagram"></i></a>
+			</div>
+			<span>De instrumentos.com - Creado por DGR</span>
+		</footer>
+	</div>
+	<script src="js/menu.js"></script>
+</body>
+</html>

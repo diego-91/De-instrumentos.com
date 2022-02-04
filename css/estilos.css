@@ -1,0 +1,502 @@
+body{
+	background:url("../Imagenes/dust_scratches.png");
+	margin:0 auto;
+	padding:0;
+}
+	#contenedor{
+		margin:0 auto;
+		max-width: 1360px;
+		width: 90%;
+	}
+		header{
+			background:rgb(68,68,68);
+			box-sizing:border-box;
+			height:100px;
+			padding-top:6px;
+			position:fixed;
+			text-align:center;
+			top:0px;
+			width:90%;
+		}
+			header #btn-menu{
+				display:none;
+			}
+			header label{
+				display:none;
+			}
+			header #marca{
+				margin-left: auto;
+				margin-right: auto;
+				width: 446px;
+			}
+				header #marca .logo{
+					background:url(../Imagenes/Logo.png);
+					background-repeat:no-repeat;
+					display:inline-block;
+					height:47px;
+					text-indent:-3000px;	
+					width:438px;
+				}
+			header #redes{
+				float: right;
+				margin-right: 18px;
+				margin-top: -79px;
+			}
+				header #redes .socmed{
+					color:rgb(226,226,226);
+					font-size:25px;
+					margin-right: 6px;
+					transition:0.4s;		
+				}
+					header #redes .socmed:hover{
+					color:rgba(232, 105, 0, 0.99);
+				}
+ 			nav{				
+ 				margin-top: -10px;
+ 			}  	
+ 				nav #menuprincipal{		
+ 					list-style-type:none;
+					padding: 0;
+   				 	width:101.7%;
+   				}
+ 					nav #menuprincipal .li{
+ 						background:rgb(68,68,68);
+  						float:left; 
+ 						margin-right:1.2%;
+ 						position:relative;
+ 						width: 15.4%;
+					}
+ 						nav #menuprincipal .li a{
+ 							color:rgb(226,226,226);
+ 							display:block;
+ 							height:28px;
+ 							text-decoration:none;
+ 							font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+ 							font-weight:bold;
+ 							padding-top:5px;
+ 							transition:0.3s; 				
+ 						}
+ 							nav #menuprincipal .li a:hover{
+ 								background:rgb(62,62,62);
+ 								color:rgba(232,105,0, 0.99);
+ 				   			}
+ 								nav #menuprincipal .li .arrow{
+ 									display:none;
+ 								}
+ 									nav #menuprincipal .li ul{
+ 										background:rgb(68,68,68);
+ 										box-sizing: border-box;
+ 										display:none;
+  										list-style-type:none;
+  										position:absolute;
+  										width:148px;
+  									} 				    
+ 										nav #menuprincipal .li:hover ul{
+ 											display:block;
+ 				   						}
+ 				    						nav #menuprincipal .li ul li{
+ 												margin-left:-40px;				
+				   							}
+												 nav #menuprincipal .li ul li a{
+													font-weight:normal;
+												}
+		#wrapper{
+			background: rgb(68,68,68);
+			box-sizing:border-box;
+			float:left;
+			margin-bottom:8px;
+			margin-top:137px;
+			padding-bottom: 15px;
+			padding-left:29px;			
+			padding-right:29px;
+			width:83.2%;
+		}				    
+			#wrapper #bienvenida{
+				box-sizing:border-box;
+				margin-bottom:12px;
+				margin-top:70px;
+				width:100%;
+			}
+				#wrapper #bienvenida h2{
+					color:rgba(232, 105, 0, 0.99);
+					font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+					font-weight:400;
+					text-align:center;
+					margin-bottom:-12px;
+					margin-top:-50px;
+				}
+					#wrapper #bienvenida p{
+						color:rgb(226,226,226);	
+						font-family: "Homizio Medium", "Homizio", "Homizio thin";
+						font-weight:500;
+						margin-bottom:-3px;
+					}
+.introducciones h3{
+	color:rgba(232, 105, 0, 0.99);
+	font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+	font-size:24px;
+	font-weight:400;
+	height:34px;
+	margin-bottom:-14px;
+	margin-top:3px;
+	padding-top:5px;
+}
+	.introducciones > p{
+		color:rgb(226,226,226);
+		font-family:"Homizio Medium", "Homizio", "Homizio thin";
+}
+	.contenido{
+     	border:0.9px solid;
+		color:#e2e2e2;
+		margin-bottom: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:5px;
+		padding-bottom: 3%;
+		width:87%;
+	}
+		.contenido img{
+			float:left;
+			margin-left:5%;
+			margin-top:4px;
+			width: 30%;
+		}
+		.contenido .divs{
+			margin-top: -18px;
+			padding-right: 18px;
+		}
+			.contenido h4{
+				color:rgba(232, 105, 0, 0.99);	
+				font-family:"Homizio light", "Homizio Nova Light", "Homizio Nova";
+				font-weight:bolder;
+				font-size:23px;
+				letter-spacing: 1px;                                                                                                           px;
+				margin-left:61%;
+				margin-bottom:-15px;		
+			}
+			.contenido p{	
+				margin-left:61%;
+				font-family:"Homizio Medium", "Homizio", "Homizio thin";
+				font-size:15px;
+				letter-spacing: 1px;
+				/*colocando esto de width 40% el ancho se ajusta por el lado izquierdo y deja un margen derecho, como si hubiera colocado un padding-right:tanto valor por ciento en el .contenido;
+				background:lime;*/
+			}
+				.contenido a{
+					color:rgb(226,226,226);
+					font-family: "Arial", "Helvetica", sans-serif;
+					font-weight:700;
+					text-decoration:none;
+				}
+		.separadores img{
+			margin-bottom: 45px;
+			width:100%;
+		}
+		aside{
+			float:right;
+			margin-top: 137px;
+			width:16%;
+		}
+		footer{
+		    background: rgb(68,68,68);
+			box-sizing: border-box;
+			clear: both;
+			color: rgb(226,226,226);
+			font-family: "Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+			font-size: 17px;
+			height: 70px;
+			padding-top: 23px;
+			text-align: center;
+		}
+			footer #box{
+				float: left;							
+				margin-left: 14px;
+				width: 120px;
+				height: 25px;
+			}
+				footer #box .redsoc{
+					color: rgb(226,226,226);
+					font-size: 25px;
+					margin-right: 7px;
+				}
+					footer #box .redsoc:hover{
+						color: rgba(232, 105, 0, 0.99);
+						transition: 0.4s;
+					}
+						footer span{
+							display: block;
+							margin-left: auto;
+							margin-right: auto;
+							width: 290px;
+						}
+/*moviles*/
+@media screen and (min-width: 0px) and (max-width: 480px){
+	#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	padding-top:14px;
+	width:100%;	
+}
+	header label{
+		border:solid 1px rgb(226,226,226);
+		box-sizing: border-box;
+		color: rgb(226,226,226);
+		display: block;
+		margin-left: 14px;
+		margin-top: -1px;
+		padding-bottom: 1.5px;
+		padding-left: 4.5px;
+		padding-right: 5px;
+		padding-top: 2.5px;
+		position: absolute;
+	}
+	#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%);
+}
+	header #marca{
+		height: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -1px;
+		width: 219px;
+	}
+		header #marca .logo{
+			background:url("../Imagenes/logo_responsive.png");
+			background-repeat:no-repeat;
+			margin-top:2px;
+			height:20px;
+			width:206px;
+		}
+	header .socmed{
+		display:none;
+	}	
+	nav{
+		text-align:left;		
+	}
+		nav #menuprincipal{
+			top:52px;
+			margin:0;
+			padding-left:0%;
+			transform:translateX(-110%);
+			transition:all 0.1s;
+		}
+			nav #menuprincipal .li{
+				background:rgba(62,62,62);
+				box-sizing:border-box;
+				float:none;
+				padding-left:0px;
+				width:70%;
+			}
+				nav #menuprincipal .li .arrow{
+					display:block;
+					float:right;
+					margin-right:16px;
+					margin-top:4px;
+				}
+					nav #menuprincipal .li a{
+						padding-left:17px;
+					}
+						nav #menuprincipal .li a:hover{
+							background:rgb(62,62,62);
+							color:rgb(226,226,226);
+						}
+							nav #menuprincipal .li ul{
+								margin-left:15%;
+								position: static;
+								width: auto;
+							}
+								nav #menuprincipal .li:hover ul{
+								 	display:none;
+								}
+									nav #menuprincipal .li ul li a{
+										font-weight:normal;
+									}
+										nav #menuprincipal .li ul li a:hover{
+											background:rgb(68,68,68);
+										}
+#wrapper{
+	float:none;
+	margin-top:52px;
+	padding-bottom:12px;
+	padding-left:29px;
+	padding-right:29px;
+	padding-top:1px;
+	width:100%;
+}
+	.wrapper #bienvenida{
+		margin-top:69px;
+	}
+	.contenido{
+		height:auto;
+		padding-right:19px;
+	}
+		.contenido img{
+			float:none;
+			display:block;
+			width:90%;
+			margin-bottom: 27px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		.contenido h4{
+			margin-left:5.5%;
+			margin-top:2px;
+			margin-bottom:-13px;
+		}
+		.contenido  p{
+			box-sizing:border-box;
+			margin-left:5.5%;
+			padding-right:12px;
+			width:100%;
+			}
+aside{
+	float:none;
+	margin-top: 0;
+	width:100%;
+}
+footer{
+	height: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 12px;
+}
+	footer #box{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 7px;
+		padding-left: 7px;
+	}
+		footer #box .redsoc:hover{
+			color: rgb(226,226,226);
+		}
+		footer span{
+			width: auto;
+		}
+}
+/*tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+#contenedor{
+	width:100%;
+}
+	#contenedor header{
+		height:50px;
+		padding-top:0px;
+		width:100%;
+	}	
+		#contenedor header label{
+			border:solid 1px rgb(226,226,226);
+			box-sizing: border-box;
+			color: rgb(226,226,226);
+			display: block;
+			margin-left: 14px;
+			margin-top: 13px;
+			padding-bottom: 1.5px;
+			padding-left: 4.5px;
+			padding-right: 5px;
+			padding-top: 2.5px;
+			position: absolute;
+		}
+		#btn-menu:checked ~ nav #menuprincipal{
+			transform:translateX(0%);
+		}
+	header #marca .logo{
+		background:url("../Imagenes/logo_responsive.png");
+		background-repeat:no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:15px;
+		height:20px;
+		width:205px;
+	}
+	header .socmed{
+		display:none;
+	}
+	nav{
+		text-align:left;
+	}
+		nav #menuprincipal{
+			top:52px;
+			transform:translateX(-110%);
+			transition:all 0.1s;
+		}
+			nav #menuprincipal .li{
+				background:rgba(62,62,62);
+				width:70%;	
+				/*en nav #menuprincipal (estilos.css) el width esta en 71.2%, si coloco en li de tablets (por ejemplo) width:100% ese ancho abarcara todo el ancho de su padre nav#menuprincipal, si coloco 50%, abarcara la mitad de su padre*/;
+			}
+				nav #menuprincipal .li .arrow{
+					display:block;
+					float:right; 
+					margin-right:16px;
+					margin-top:4px;
+				}
+					nav #menuprincipal .li a{
+						padding-left:17px;
+					}
+						nav #menuprincipal .li ul{
+							margin-left:15%;
+							position:static;
+							width:auto;
+						}
+						nav #menuprincipal .li a:hover{
+						 	background:rgb(62,62,62);
+						 	color:rgb(226,226,226);
+						}
+						nav #menuprincipal .li:hover ul{
+							display:none;
+						}
+						nav #menuprincipal .li ul li a:hover{
+							background:rgb(68,68,68);
+						}
+	#wrapper{
+		margin-top:52px;
+		padding-top:1px;
+		width:100%;
+		padding-bottom:12px;
+	}
+		#wrapper .contenido{
+			box-sizing:border-box;
+			padding-left:65px;
+			padding-right:25px;
+		}
+			#wrapper .contenido p{
+				float:none;
+			}
+		#wrapper .contenido img{
+			margin-left:0%;
+			margin-top:17px;
+		}
+		#wrapper .contenido h4{
+			font-size:23px;
+		}
+	aside{
+		margin-top: 0px;
+		width:100%;
+	}
+	footer{
+		height: auto;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 12px;
+	}
+		footer #box{
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 7px;
+			padding-left: 7px;
+		}
+				footer #box .redsoc:hover{
+					color: rgb(226,226,226);
+				}
+				footer span{
+					width: auto;
+				}
+	}

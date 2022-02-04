@@ -1,0 +1,208 @@
+body{
+	margin:0;/*quita los margenes de los 4 lados. Se va a notar mas cuando la pagina este terminada*/
+	background:url("../Imagenes/dust_scratches.png");
+}
+main{
+	margin-right:auto;
+	margin-left:auto; /*este y el de abajo sirven para que juntos puedan centrar horizontalmente el contenido del body, es decir con respecto al eje x*/
+	width:960px;	
+}
+/*cabecera*/
+header{/*modificado*/
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	height:100px;
+	padding-top:6px;
+	position:fixed;
+	text-align:center;
+	top:0px;
+	width:960px;
+	}
+	.logo{
+		background:url(../Imagenes/Logo.png);
+		background-repeat:no-repeat;
+		display:inline-block;/*con esto permito que las redes sociales entren al header(esto es posible cuando le coloco INLINE)*/
+		height:47px;
+		text-indent:-3000px;	
+		width:438px;
+		}
+	.socmed{
+	color:rgb(226,226,226);
+	font-size:25px;
+	float:right;
+	transition:0.4s;
+	}
+	.socmed:hover{
+		color:rgba(232, 105, 0, 0.99);
+	    }		
+nav{
+ 	margin-top:88px;
+ 	text-align:center;
+ 	/*margin-left:-50px: colocada aca mueve la caja nav hacia izquierda o derecha y arrastra al menu*/
+ 	}  	
+  	/*es un ul contenedor del menu principal*/
+ 	#menuprincipal{
+ 		height:35px;
+ 		position:fixed;
+ 		list-style-type:none;
+ 		width:102%;
+ 		margin-left:-50px;/*colocado aca mueve hacia izquierda o derecha solo todo el menu principal respetando sus margenes que estan en el selector li*/	
+		}
+ 		/*estilos del menu principal*/
+ 		#menuprincipal li{
+ 			background:rgb(68,68,68);
+ 			box-sizing:border-box;
+  			float:left;
+ 			height:33px; 
+ 			margin-left:10.3px;
+ 			position:relative;
+ 			width:151.50px;
+ 			}
+ 			/*estilos del hipervinculo*/
+ 			#menuprincipal li a{
+ 				color:rgb(226,226,226);
+ 				display:block;
+ 				height:28px;
+ 				text-decoration:none;
+ 				font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+ 				padding-top:5px;
+ 				transition:0.3s; 				
+ 				}
+ 				/*efectos sobre el hipervinculo*/
+ 				#menuprincipal li a:hover{
+ 					background:rgb(62,62,62);
+ 					color:rgba(232,105,0, 0.99);
+ 				    }
+ 				/*estilos sobre el contenedor de las listas secundarias*/ 
+ 				#menuprincipal li ul{
+ 					display:none;
+ 					list-style-type:none;
+ 					margin-left:-50.3px;
+ 					position:absolute;
+ 					z-index:1;
+ 					z-index:2;
+ 				    }
+ 				/*efecto que se da cuando hago click sobre el menu principal y afecta tanto al menu secundario como a los siguientes*/
+ 				#menuprincipal li:hover >ul{
+ 					display:block;
+ 				    }
+ 				    /*efectos sobre todos los li secundarios y siguientes de todos los ul scundarios y siguientes*/
+ 					#menuprincipal li ul li{
+ 					width:178px;
+				    }
+				    /*efectos sobre todos los ul secundarios y siguientes de todos los li secundarios y siguientes*/
+ 					#menuprincipal li ul li ul{
+ 						left:100%;
+ 						top:0px;
+					}
+#wrapper{
+	background:rgb(68,68,68);
+ 	box-sizing:border-box;
+ 	float:left;
+ 	margin-bottom:8px;
+ 	margin-top:53px;
+ 	padding-left:29px; 
+ 	padding-right:29px;
+  	width:79%;/*modificado*/
+ 	}
+	article h2{
+		color:rgba(232, 105, 0, 0.99);
+		font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+		letter-spacing:0.1px;
+		font-weight:200;
+		margin-top:12px;
+		margin-bottom:-11px;/*modificado*/
+		}
+		#hr{
+			margin-left:-29px;/*modificado*/
+			margin-bottom:-7px;
+		    }
+	article h3{
+		color:rgb(226,226,226);
+		font-family:"Homizio Nova Light", "Novizio Nova";
+		font-size:22px;
+		letter-spacing:1.5px;
+		margin-bottom:-14px;/*modificado*/
+	    }
+	#audio{
+		text-align:center;
+		}
+	article h4{
+		color:rgba(232,105,0, 0.99);
+		font-family:"homizio light", "Homizio Nova Light", "Homizio Nova";
+		font-weight:600;
+		font-size:18px;
+		letter-spacing:1.2px;
+		margin-top:25px;
+		margin-bottom:-15px;/*modificado*/
+	}
+	article p{
+		color:rgb(226,226,226);
+		font-family:"Homizio Nova", "Homizio Nova Light";
+		letter-spacing:0.4px;/*modificado*/		
+	}
+		#imagenprincipal{/*es un div*/
+		border:solid 0.9px;
+		color:rgb(226,226,226);
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:4px;
+		text-align:center;		
+		width:687px;/*modificado*/
+	}	
+		#imagen1{
+			border:solid 0.5px;
+			box-sizing:border-box;
+			color:rgb(226,226,226);
+			margin-right:auto;
+			margin-left:auto;
+			padding-left:69px;
+			padding-top:7px;
+			padding-bottom:3px;
+			width:290px;/*modificado*/
+		}
+		#imagen2{/*modificado*/
+			border:solid 0.5px;
+			color:rgb(226,226,226);
+			margin-left:auto;
+			margin-right:auto;
+			padding-top:1px;
+			text-align:center;
+			width:510px;/*modificado*/
+		}
+		#multimedia{
+			text-align:center;
+			margin-bottom:45px;
+}
+aside{
+	float:right;
+	margin-top:53px;
+	margin-right:3px;			
+	width:20%;
+	}	
+footer{
+		background:rgb(68,68,68);
+		box-sizing:border-box;
+		clear:both;
+		color:rgb(226,226,226);
+		font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+		font-size:17px;
+		height:70px;
+		padding-top:18px;/*este se aplica incluso al redsoc(porque es un valor en general)*/
+	    }
+		.redsoc{
+		color:rgb(226,226,226);
+		float:left;
+		font-size:25px;
+		margin-left:10px;
+		margin-top:5px;
+		transition:0.4s;
+		}
+		.redsoc:hover{
+			color:rgba(232,105,0, 0.99);
+			}
+	#copyright{
+		margin:7px auto;
+		width:500px;
+		}
+		

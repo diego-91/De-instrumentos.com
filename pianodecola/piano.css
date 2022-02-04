@@ -1,0 +1,440 @@
+body{/*se refiere a todo el visual, esto incluye a la parte de atras del contenido de la pagina*/
+	background:url("../Imagenes/dust_scratches.png");
+	margin:auto;/*quita los margenes*/
+}
+#contenedor{/*es el contenedor del contenido visual, es un div*/
+	max-width: 1360px;
+	margin: auto;
+	width: 90%;
+}
+	header{
+		background:rgb(68,68,68);
+		box-sizing:border-box;
+		height:100px;
+		position:fixed;
+		width: 90%;
+		}
+		header #btn-menu{
+			display: none;	
+		}
+		header label{
+			display:none;	
+		}
+			header #marca{
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:5px;
+				width:440px;	
+				}
+				header #marca .logo{
+					background:url(../Imagenes/Logo.png);		
+					background-repeat:no-repeat;
+					display:inline-block;
+					height:47px;		
+					text-indent:-3000px;	
+					width:438px;
+				}
+			header #redes{
+				margin-top:-85px;
+				margin-right:14px;
+				float:right;
+			}	
+				header #redes .socmed{
+					color:rgb(226,226,226);
+					font-size:25px;
+					padding-left:4px;	
+					transition:0.4s;
+			    }
+				header #redes .socmed:hover{
+					color:rgba(232, 105, 0, 0.99);
+				}		
+		nav{
+			margin-top:-9px;
+			text-align:center;		
+		}
+			nav #menuprincipal{
+				list-style-type:none;
+				padding:0;/*FUNDAMENTAL PARA CENTRAR LOS LI!!!!!!!!!!!!!!!!!!!!!!*/
+				width:102.3%;
+			}
+				nav #menuprincipal .li{
+					background:rgb(68,68,68);
+					float:left;
+					margin-right:1.2%; /*margin-right:0 o sin colocar nada; los li estan pegados. El li se fue tan a la izquierda que rebota y se va a la derecha sin que se corra el primer li*/ 	
+					position:relative;
+					width:15.3%;
+				}
+					nav #menuprincipal .li a{
+						color:rgb(226,226,226);
+						display:block;
+						font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+						font-weight:bold;
+						height:28px;
+						padding-top:5px;
+						text-decoration:none;
+						transition:0.3s;
+					}
+						nav #menuprincipal .li a:hover{
+							background:rgb(62,62,62);
+							color:rgba(232, 105, 0, 0.99);
+						}
+							nav #menuprincipal .li .arrow{
+								display:none;
+							}
+								nav #menuprincipal .li ul{
+									background:rgb(68,68,68);
+									box-sizing:border-box;
+								    display:none;
+									list-style-type:none;
+									position:absolute;
+									width:120px;
+								}
+									nav #menuprincipal .li ul li{
+										margin-left:-40px;
+										}
+										nav #menuprincipal .li:hover ul{
+											display:block;
+										}
+											nav #menuprincipal .li ul li a{
+												font-weight:normal;
+											}
+	#wrapper{
+		background:rgb(68,68,68);
+	 	box-sizing:border-box;
+	 	float:left;
+	 	margin-bottom:8px;
+	 	margin-top:137px;
+	 	padding-left:29px; 
+	 	padding-right:29px;
+	  	width: 83.2%;
+	}	
+		#wrapper article h2{
+			color:rgba(232, 105, 0, 0.99);
+			font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+			font-weight:400;
+			letter-spacing:0.1px;
+			margin-top:17px;
+			margin-bottom:-10px;
+		}
+		#wrapper article h3{
+			color:rgba(232, 105, 0, 0.99);
+			font-family:"Homizio light","Homizio Nova Light", "Homizio Nova";
+			font-size:22px;
+			letter-spacing:1.5px;
+			margin-bottom:-17px;
+		   }		   
+		#wrapper article p{
+			color:rgb(226,226,226);
+			font-family:"Homizio Nova", "Homizio Nova Light";
+			letter-spacing:0.8px;
+			margin-bottom: 17px;
+		}
+		#wrapper article #imagenprincipal{/*es un div y tiene un padding bottom por default de 4px*/
+			border:solid 0.9px;
+			color:rgb(226,226,226);
+			padding-bottom: 5px;
+			padding-top: 8px;
+			text-align:center;
+			width:100%;	
+		}	
+			#wrapper article #img{
+				margin-right:0.7%;
+				background:white;
+				width:46%;
+			}
+			#wrapper article #img2{
+				width:46%;
+			}
+	    #wrapper article #tiposdepiano{
+			color:rgba(232, 105, 0, 0.99);
+			margin-left:-25px;
+		}
+			#wrapper article #tiposdepiano li{
+				padding-left:5px; 
+			}
+				#wrapper article #tiposdepiano p{
+					margin-bottom: -5px;
+				}
+		#wrapper audio{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		#wrapper #clasificaciones{
+			color:rgba(232, 105, 0, 0.99);
+			margin-left:-25px;
+		}
+		#wrapper #notas{
+			margin-bottom: 13px;		
+		}		
+		#wrapper video{
+			margin-bottom:45px;		
+			width:100%;
+		}
+	aside{
+		float:right;
+		width:16%;
+		padding-top:137px;
+	}
+	footer{
+		background:rgb(68,68,68);
+		box-sizing:border-box;
+		clear:both;
+		color:rgb(226,226,226);
+		font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+		font-size:17px;
+		height:70px;
+		padding-top:10px;/*este se aplica incluso al redsoc(porque es un valor en general)*/
+	}
+		footer #box{
+		  	margin-left:14px;
+		  	margin-top:13px;
+		}
+			footer #box .redsoc{
+				color:rgb(226,226,226);
+				font-size:25px;
+				padding-right:7px;
+				transition:0.4s;
+			}
+			footer #box .redsoc:hover{
+				color:rgba(232, 105, 0, 0.99);
+			}
+		footer #copyright{
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:-23px;
+			width:307px;
+		}
+/*Móviles*/
+@media screen and (min-width: 0px) and (max-width: 480px){
+	#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	width:100%;
+}
+header label{
+	border:solid 1px rgb(226,226,226);
+	color: rgb(226,226,226);
+	display:block;
+	margin-left:14px;
+	margin-top:14px;
+	padding-bottom:1.5px;
+	padding-left:4.5px;
+	padding-right: 7px;
+	padding-top:2.5px;
+	width:12px;
+}
+#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%);
+}
+header #marca{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-43px;
+	width:210px;
+}
+	header #marca .logo{
+		background:url("../Imagenes/logo_responsive.png");
+		background-repeat:no-repeat;
+	}
+		header #redes{
+			display:none;
+		}
+	nav{
+		text-align: left;
+	}
+		nav #menuprincipal{
+			margin-top:-33px;
+			transform:translateX(-100%);
+			transition:0.1s;
+		}
+			nav #menuprincipal .li{
+				background:rgba(62,62,62);
+				float:none;
+				width:70%; /*el li va a abarcar todo el ancho de su padre*/
+			}
+				nav #menuprincipal .li a{
+					padding-left:17px;
+				}
+				nav #menuprincipal .li a:hover{
+					background: rgb(62,62,62);
+					color:rgb(226,226,226);	
+				}
+					nav #menuprincipal .li .arrow{
+						display:block;
+						float:right;
+						margin-right:16px;
+						margin-top:5px;	
+					}
+					nav #menuprincipal .li ul{
+						margin-left:15%;
+						position:static;
+						width:auto;
+						}
+						nav #menuprincipal .li:hover ul{
+							display: none;
+						}
+							nav #menuprincipal .li ul li a:hover{
+								background: rgb(68,68,68);
+							}
+#wrapper{
+	margin-top: 52px;
+	width:100%;
+}
+	#wrapper article #imagenprincipal{
+		box-sizing:border-box;
+		padding-bottom:8px;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 12px;
+	}
+	#wrapper article #imagenprincipal #img{
+		width:100%;
+	}
+	#wrapper article #imagenprincipal #img2{
+		width:100%;
+	}
+	#wrapper article audio{
+		width: 100%;
+	} 
+aside{
+	float:none;
+	width:100%;
+}
+footer{
+	height: auto;
+	padding-bottom: 2.5%;
+}
+	footer #box{
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0px;
+		padding-left:6px;
+		width:99.1px;
+		margin-bottom:25px;
+	}
+	footer #box .redsoc:hover{
+		color: rgb(226,226,226);
+	}
+	footer #copyright{
+		box-sizing:border-box;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:15px;
+		padding-right:15px;
+		text-align:center;
+		width:100%;
+	}
+}
+/*tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+#contenedor{
+	width:100%;
+}
+header{
+	height:50px;
+	padding-top:0px;
+	width:100%;
+}
+header #marca .logo{
+	background:url("../Imagenes/logo_responsive.png");
+	background-repeat:no-repeat;
+	height:20px;
+	margin-top:15px;
+	width:207px;
+}
+header .socmed{
+	display:none;
+}
+header label{
+	border:solid 1px rgb(226,226,226);
+	color: rgb(226,226,226);
+	display:block;
+	margin-left:14px;
+	margin-top:13px;
+	padding-bottom:1.5px;
+	padding-left:4.5px;
+	padding-right: 7px;
+	padding-top:2.5px;
+	position: absolute;
+	width:12px;
+}
+header #marca{
+	height:45px;
+	margin-top:0;
+	width:210px;
+}
+#btn-menu:checked ~ nav #menuprincipal{
+	transform:translateX(0%); /*cuan alejado del borde de la pagina quiero que esté mi menu cuando toco mi burger para que me aparezca.*/
+}
+nav{
+	text-align:left;	
+}
+nav #menuprincipal{
+	margin-top:6px;
+	transform:translateX(-100%);/*cuan atras quiero que aparezca mi menu cuando toco el burger menu para ocultar*/
+	transition:all 0.1s;
+}
+nav #menuprincipal .li .arrow{
+	float:right;
+	margin-right:16px;
+	margin-top:4px;
+}
+nav #menuprincipal .li{
+	background: rgb(62,62,62);
+	float:none;	
+	width: 70%;
+}
+nav #menuprincipal .li a{
+	padding-left:17px;
+}
+nav #menuprincipal .li a:hover{
+	background:rgb(62,62,62);
+	color:rgb(226,226,226);
+}
+nav #menuprincipal .li:hover ul{
+	display:none;
+}
+nav #menuprincipal .li ul{
+	margin-left:15%;
+	position:static;
+	width:auto;
+}
+nav #menuprincipal .li ul li a:hover{
+	background:rgb(68,68,68);
+}
+#wrapper{
+	margin-top:52px;
+	margin-bottom:-135px;
+	width:100%;
+}
+	#wrapper audio{
+		width: 100%;
+	}
+aside{
+	width:100%;
+}
+footer #box{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	width:102px;
+}
+footer #box .redsoc:hover{
+	color:rgb(226,226,226)
+}
+footer #copyright{
+	margin-top:3px;
+}
+}
+
+
+
+
+
+
+
